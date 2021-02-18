@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.wipro.L2POM.testCases.RemoveProductTest"/>
+      <class name="com.wipro.L2POM.testCases.LoginTest"/>
+      <class name="com.wipro.L2POM.testCases.E2ETest"/>
+      <class name="com.wipro.L2POM.testCases.EditInformationTest"/>
+      <class name="com.wipro.L2POM.testCases.AdditionalImageTest"/>
+      <class name="com.wipro.L2POM.testCases.EmptyCartTest"/>
+      <class name="com.wipro.L2POM.testCases.SortObjectTest"/>
+      <class name="com.wipro.L2POM.testCases.CategoryTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

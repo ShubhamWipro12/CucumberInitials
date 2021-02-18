@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.wipro.L2POM.testCases.AdditionalImageTest">
+        <methods>
+          <include name="additionalImageTesting"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.wipro.L2POM.testCases.AdditionalImageTest -->
+      <class name="com.wipro.L2POM.testCases.LoginTest">
+        <methods>
+          <include name="validateLogin"/>
+          <include name="validateLogout"/>
+        </methods>
+      </class> <!-- com.wipro.L2POM.testCases.LoginTest -->
+      <class name="com.wipro.L2POM.testCases.E2ETest">
+        <methods>
+          <include name="setup"/>
+          <include name="shopingTest"/>
+        </methods>
+      </class> <!-- com.wipro.L2POM.testCases.E2ETest -->
+      <class name="com.wipro.L2POM.testCases.CategoryTest">
+        <methods>
+          <include name="shopingTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.wipro.L2POM.testCases.CategoryTest -->
+      <class name="com.wipro.L2POM.testCases.RemoveProductTest">
+        <methods>
+          <include name="removeItem"/>
+        </methods>
+      </class> <!-- com.wipro.L2POM.testCases.RemoveProductTest -->
+      <class name="com.wipro.L2POM.testCases.SortObjectTest">
+        <methods>
+          <include name="shortTest"/>
+        </methods>
+      </class> <!-- com.wipro.L2POM.testCases.SortObjectTest -->
+      <class name="com.wipro.L2POM.testCases.EditInformationTest">
+        <methods>
+          <include name="setup"/>
+          <include name="editingMobileTesting"/>
+        </methods>
+      </class> <!-- com.wipro.L2POM.testCases.EditInformationTest -->
+      <class name="com.wipro.L2POM.testCases.EmptyCartTest">
+        <methods>
+          <include name="setup"/>
+          <include name="emptyCartTest"/>
+        </methods>
+      </class> <!-- com.wipro.L2POM.testCases.EmptyCartTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

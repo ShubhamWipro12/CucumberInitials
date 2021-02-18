@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-skipped">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\SH40064174\AppData\Local\Temp\testng-eclipse--1804559199\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">17 methods,  17 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods skipped suite-Default_suite"> (hide)</a> <!-- hide-methods skipped suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods skipped suite-Default_suite"> (show)</a> <!-- show-methods skipped suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Default_suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.wipro.L2POM.testCases.AdditionalImageTest" hash-for-method="additionalImageTesting">additionalImageTesting</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.wipro.L2POM.testCases.EditInformationTest" hash-for-method="editingMobileTesting">editingMobileTesting</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.wipro.L2POM.testCases.EmptyCartTest" hash-for-method="emptyCartTest">emptyCartTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.wipro.L2POM.testCases.RemoveProductTest" hash-for-method="removeItem(Samsung Galaxy Tab 10.1)">removeItem(Samsung Galaxy Tab 10.1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.wipro.L2POM.testCases.RemoveProductTest" hash-for-method="removeItem(Sony)">removeItem(Sony)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.wipro.L2POM.testCases.RemoveProductTest" hash-for-method="removeItem(Nikon)">removeItem(Nikon)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.wipro.L2POM.testCases.E2ETest" hash-for-method="shopingTest(Sony)">shopingTest(Sony)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.wipro.L2POM.testCases.CategoryTest" hash-for-method="shopingTest(MP3 Players)">shopingTest(MP3 Players)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.wipro.L2POM.testCases.E2ETest" hash-for-method="shopingTest(Canon)">shopingTest(Canon)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.wipro.L2POM.testCases.CategoryTest" hash-for-method="shopingTest(Laptops &amp; Notebooks)">shopingTest(Laptops & Notebooks)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.wipro.L2POM.testCases.CategoryTest" hash-for-method="shopingTest(      Web Cameras)">shopingTest(      Web Cameras)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.wipro.L2POM.testCases.E2ETest" hash-for-method="shopingTest(Apple)">shopingTest(Apple)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.wipro.L2POM.testCases.E2ETest" hash-for-method="shopingTest(Nikon)">shopingTest(Nikon)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.wipro.L2POM.testCases.SortObjectTest" hash-for-method="shortTest">shortTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.wipro.L2POM.testCases.LoginTest" hash-for-method="validateLogin(xyz@gmail.com, 123456789)">validateLogin(xyz@gmail.com, 123456789)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.wipro.L2POM.testCases.LoginTest" hash-for-method="validateLogin(sri@gmail.com, 989889)">validateLogin(sri@gmail.com, 989889)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.wipro.L2POM.testCases.LoginTest" hash-for-method="validateLogout(apple@banana.com, applebanana@12)">validateLogout(apple@banana.com, applebanana@12)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.wipro.L2POM.testCases.AdditionalImageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="additionalImageTesting">
+                  </a> <!-- additionalImageTesting -->
+                  <span class="method-name">additionalImageTesting</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-skipped -->
+          <div class="suite-Default_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.wipro.L2POM.testCases.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLogin(xyz@gmail.com, 123456789)">
+                  </a> <!-- validateLogin(xyz@gmail.com, 123456789) -->
+                  <span class="method-name">validateLogin</span>
+                  <span class="parameters">(xyz@gmail.com, 123456789)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLogin(sri@gmail.com, 989889)">
+                  </a> <!-- validateLogin(sri@gmail.com, 989889) -->
+                  <span class="method-name">validateLogin</span>
+                  <span class="parameters">(sri@gmail.com, 989889)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLogout(apple@banana.com, applebanana@12)">
+                  </a> <!-- validateLogout(apple@banana.com, applebanana@12) -->
+                  <span class="method-name">validateLogout</span>
+                  <span class="parameters">(apple@banana.com, applebanana@12)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-skipped -->
+          <div class="suite-Default_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.wipro.L2POM.testCases.E2ETest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="shopingTest(Sony)">
+                  </a> <!-- shopingTest(Sony) -->
+                  <span class="method-name">shopingTest</span>
+                  <span class="parameters">(Sony)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shopingTest(Canon)">
+                  </a> <!-- shopingTest(Canon) -->
+                  <span class="method-name">shopingTest</span>
+                  <span class="parameters">(Canon)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shopingTest(Apple)">
+                  </a> <!-- shopingTest(Apple) -->
+                  <span class="method-name">shopingTest</span>
+                  <span class="parameters">(Apple)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shopingTest(Nikon)">
+                  </a> <!-- shopingTest(Nikon) -->
+                  <span class="method-name">shopingTest</span>
+                  <span class="parameters">(Nikon)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-skipped -->
+          <div class="suite-Default_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.wipro.L2POM.testCases.CategoryTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="shopingTest(MP3 Players)">
+                  </a> <!-- shopingTest(MP3 Players) -->
+                  <span class="method-name">shopingTest</span>
+                  <span class="parameters">(MP3 Players)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shopingTest(Laptops &amp; Notebooks)">
+                  </a> <!-- shopingTest(Laptops & Notebooks) -->
+                  <span class="method-name">shopingTest</span>
+                  <span class="parameters">(Laptops & Notebooks)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shopingTest(      Web Cameras)">
+                  </a> <!-- shopingTest(      Web Cameras) -->
+                  <span class="method-name">shopingTest</span>
+                  <span class="parameters">(      Web Cameras)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-skipped -->
+          <div class="suite-Default_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.wipro.L2POM.testCases.RemoveProductTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeItem(Samsung Galaxy Tab 10.1)">
+                  </a> <!-- removeItem(Samsung Galaxy Tab 10.1) -->
+                  <span class="method-name">removeItem</span>
+                  <span class="parameters">(Samsung Galaxy Tab 10.1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeItem(Sony)">
+                  </a> <!-- removeItem(Sony) -->
+                  <span class="method-name">removeItem</span>
+                  <span class="parameters">(Sony)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeItem(Nikon)">
+                  </a> <!-- removeItem(Nikon) -->
+                  <span class="method-name">removeItem</span>
+                  <span class="parameters">(Nikon)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-skipped -->
+          <div class="suite-Default_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.wipro.L2POM.testCases.SortObjectTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="shortTest">
+                  </a> <!-- shortTest -->
+                  <span class="method-name">shortTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-skipped -->
+          <div class="suite-Default_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.wipro.L2POM.testCases.EmptyCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="emptyCartTest">
+                  </a> <!-- emptyCartTest -->
+                  <span class="method-name">emptyCartTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-skipped -->
+          <div class="suite-Default_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.wipro.L2POM.testCases.EditInformationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="editingMobileTesting">
+                  </a> <!-- editingMobileTesting -->
+                  <span class="method-name">editingMobileTesting</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-skipped -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\SH40064174\AppData\Local\Temp\testng-eclipse--1804559199\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.wipro.L2POM.pageObject.LoginPage&quot;/&gt;
+      &lt;class name=&quot;com.wipro.L2POM.testCases.LoginTest&quot;/&gt;
+      &lt;class name=&quot;com.wipro.L2POM.pageObject.CategoryObject&quot;/&gt;
+      &lt;class name=&quot;com.wipro.L2POM.testCases.AdditionalImageTest&quot;/&gt;
+      &lt;class name=&quot;com.wipro.L2POM.pageObject.ShoppingObject&quot;/&gt;
+      &lt;class name=&quot;com.wipro.L2POM.testCases.EditInformationTest&quot;/&gt;
+      &lt;class name=&quot;com.wipro.L2POM.testCases.E2ETest&quot;/&gt;
+      &lt;class name=&quot;com.wipro.L2POM.resources.DriverDetails&quot;/&gt;
+      &lt;class name=&quot;com.wipro.L2POM.utility.Webelements&quot;/&gt;
+      &lt;class name=&quot;com.wipro.L2POM.testCases.RemoveProductTest&quot;/&gt;
+      &lt;class name=&quot;com.wipro.L2POM.pageObject.RemoveObject&quot;/&gt;
+      &lt;class name=&quot;com.wipro.L2POM.pageObject.EditInformationObject&quot;/&gt;
+      &lt;class name=&quot;com.wipro.L2POM.testCases.CategoryTest&quot;/&gt;
+      &lt;class name=&quot;com.wipro.L2POM.testCases.SortObjectTest&quot;/&gt;
+      &lt;class name=&quot;com.wipro.L2POM.testCases.EmptyCartTest&quot;/&gt;
+      &lt;class name=&quot;com.wipro.L2POM.pageObject.EmptyCartObject&quot;/&gt;
+      &lt;class name=&quot;com.wipro.L2POM.pageObject.AdditionalImageObject&quot;/&gt;
+      &lt;class name=&quot;com.wipro.L2POM.pageObject.SortObject&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (18 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(17);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'emptyCartTest')
+data.setCell(0, 2, 'com.wipro.L2POM.testCases.EmptyCartTest')
+data.setCell(0, 3, 8);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'validateLogout')
+data.setCell(1, 2, 'com.wipro.L2POM.testCases.LoginTest')
+data.setCell(1, 3, 8);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'removeItem')
+data.setCell(2, 2, 'com.wipro.L2POM.testCases.RemoveProductTest')
+data.setCell(2, 3, 8);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validateLogin')
+data.setCell(3, 2, 'com.wipro.L2POM.testCases.LoginTest')
+data.setCell(3, 3, 8);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'removeItem')
+data.setCell(4, 2, 'com.wipro.L2POM.testCases.RemoveProductTest')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'shopingTest')
+data.setCell(5, 2, 'com.wipro.L2POM.testCases.E2ETest')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'shopingTest')
+data.setCell(6, 2, 'com.wipro.L2POM.testCases.CategoryTest')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'editingMobileTesting')
+data.setCell(7, 2, 'com.wipro.L2POM.testCases.EditInformationTest')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'shopingTest')
+data.setCell(8, 2, 'com.wipro.L2POM.testCases.E2ETest')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'removeItem')
+data.setCell(9, 2, 'com.wipro.L2POM.testCases.RemoveProductTest')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'shopingTest')
+data.setCell(10, 2, 'com.wipro.L2POM.testCases.CategoryTest')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'shopingTest')
+data.setCell(11, 2, 'com.wipro.L2POM.testCases.CategoryTest')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'additionalImageTesting')
+data.setCell(12, 2, 'com.wipro.L2POM.testCases.AdditionalImageTest')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'shopingTest')
+data.setCell(13, 2, 'com.wipro.L2POM.testCases.E2ETest')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'shortTest')
+data.setCell(14, 2, 'com.wipro.L2POM.testCases.SortObjectTest')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'validateLogin')
+data.setCell(15, 2, 'com.wipro.L2POM.testCases.LoginTest')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'shopingTest')
+data.setCell(16, 2, 'com.wipro.L2POM.testCases.E2ETest')
+data.setCell(16, 3, 0);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 32 ms</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.wipro.L2POM.testCases.AdditionalImageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.wipro.L2POM.testCases.CategoryTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">8550 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.wipro.L2POM.testCases.E2ETest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">13028 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.wipro.L2POM.testCases.EditInformationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">17776 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.wipro.L2POM.testCases.EmptyCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setup</span>
+                <span class="method-start">23120 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.wipro.L2POM.testCases.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateLogin(xyz@gmail.com, 123456789)</span>
+                <span class="method-start">28553 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateLogin(sri@gmail.com, 989889)</span>
+                <span class="method-start">28561 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateLogout(apple@banana.com, applebanana@12)</span>
+                <span class="method-start">28561 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.wipro.L2POM.testCases.AdditionalImageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">additionalImageTesting</span>
+                <span class="method-start">28569 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.wipro.L2POM.testCases.EditInformationTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">editingMobileTesting</span>
+                <span class="method-start">28569 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.wipro.L2POM.testCases.RemoveProductTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">removeItem(Sony)</span>
+                <span class="method-start">28569 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">removeItem(Nikon)</span>
+                <span class="method-start">28577 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">removeItem(Samsung Galaxy Tab 10.1)</span>
+                <span class="method-start">28577 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.wipro.L2POM.testCases.CategoryTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">shopingTest(Laptops & Notebooks)</span>
+                <span class="method-start">28577 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shopingTest(      Web Cameras)</span>
+                <span class="method-start">28585 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shopingTest(MP3 Players)</span>
+                <span class="method-start">28585 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.wipro.L2POM.testCases.E2ETest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">shopingTest(Apple)</span>
+                <span class="method-start">28593 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shopingTest(Sony)</span>
+                <span class="method-start">28593 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shopingTest(Nikon)</span>
+                <span class="method-start">28601 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shopingTest(Canon)</span>
+                <span class="method-start">28601 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.wipro.L2POM.testCases.SortObjectTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">shortTest</span>
+                <span class="method-start">28601 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.wipro.L2POM.testCases.EmptyCartTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">emptyCartTest</span>
+                <span class="method-start">28601 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
